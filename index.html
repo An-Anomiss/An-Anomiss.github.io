@@ -1,331 +1,256 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
   <head>
-    <meta charset="UTF8" />
-    <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="startstyle.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
-    <!-- breadcrumbs -->
-    <!-- <nav aria-label="breadcrumb">
-			<ol class="breadcrumb">
-			  <li class="breadcrumb-item active" aria-current="#my-work">My Work</li>
-			  <li class="breadcrumb-item active" aria-current="#About-me">About Me</li>
-			  <li class="breadcrumb-item active" aria-current="#contact-me">Contact Me</li>
-			</ol>
-		  </nav> -->
-    <ul class="breadcrumb">
-      <li><a href="#work">My work</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <title>Anomiss</title>
   </head>
-  <body>
-    <!--introduction-->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, thanks for landing by, I am
-        <strong>Andreea Simona Negrila</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">
-        Product | UX/UI Designer
-      </p>
-      <img
-        src="./images used/Ylogo.png"
-        alt="picture of me smiling"
-        class="intro__img"
-      />
-    </section>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <!--   <a href="index.html" class="logo"
+          ><strong>Forty</strong> <span>by HTML5 UP</span></a
+        > -->
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
 
-    <!--My work-->
-    <section class="my-work" id="work">
-      <h2 class="section__title-work">My work</h2>
-      <div class="portfolio">
-        <div class="portfolio__item">
-          <div class="portfolio__column-left">
-            <a>
-              <img
-                class="portfolio__column-left__img"
-                src="./images used/project1 Climax.png"
-              />
-            </a>
-            <br />
-          </div>
-          <div class="portfolio__column-right">
-            <div class="portfolio__column-right__text">
-              <h3><strong>CLIMAX</strong></h3>
-              <h4>
-                UX & UI- Ironhack Bootcamp
-                <br />
-                Web-editorial
-              </h4>
-              <p>
-                <!-- <strong>Problem:</strong> Niche Web editorials
-								targeting generation Z females and responding to
-								their needs.
-								<br /> -->
-                <strong>About:</strong> An artsy web-editorial for generation Z,
-                covering women's rights, sexual objectification, culture and
-                environmental issues.
-              </p>
-            </div>
-            <div class="portfolio__column-right__medium-btn grow">
-              <a
-                class="portfolio__column-right__medium-btn__link"
-                href="https://medium.com/@negrila.andreea/climax-magazine-849fd646701e"
-              >
-                <img
-                  class="portfolio__column-right__medium-btn__logo"
-                  src="./images used/icon Medium.png "
-                />
-                <p class="portfolio__column-right__medium-btn__text">
-                  Check my Medium post
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio__item">
-          <div class="portfolio__column-left">
-            <a>
-              <img
-                class="portfolio__column-left__img"
-                target="_blank"
-                rel="noopener noreferrer"
-                src="./images used/Project 2 Shakespeare.png"
-              />
-            </a>
-            <br />
-          </div>
-          <div class="portfolio__column-right">
-            <div class="portfolio__column-right__text">
-              <h3>
-                <strong>SHAKESPEARE THEATER FESTIVAL</strong>
-              </h3>
-              <h4>
-                UX & UI- Ironhack Bootcamp
-                <br />
-                Event micro-site
-              </h4>
-              <p>
-                <!-- <strong>Problem:</strong> International festival
-								that is only promoted via facebook. Attendees
-								are not being informed of updates and experience
-								difficulties finding venues because a map of the
-								festival is missing.
-								<br /> -->
-                <strong>About:</strong> Starting from the festival's theme -
-                "Universal Shakspeare" I designed a futuristic and dynamic look
-                to promote the biannual event.
-              </p>
-            </div>
-            <div class="portfolio__column-right__medium-btn grow">
-              <a
-                class="portfolio__column-right__medium-btn__link"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://medium.com/@negrila.andreea/curated-micro-site-519d329bb4de"
-              >
-                <img
-                  class="portfolio__column-right__medium-btn__logo"
-                  src="./images used/icon Medium.png "
-                />
-                <p class="portfolio__column-right__medium-btn__text">
-                  Check my Medium post
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio__item">
-        <div class="portfolio__column-left">
-          <a>
-            <img
-              class="portfolio__column-left__img"
-              src="./images used/SPOTBOX.png"
-            />
-          </a>
-          <br />
-        </div>
-        <div class="portfolio__column-right">
-          <div class="portfolio__column-right__text">
-            <h3><strong>SPOTBOX</strong></h3>
-            <h4>
-              UX & UI- Ironhack Bootcamp
-              <br />
-              Final Project
-            </h4>
-            <p>
-              <strong>About:</strong> An App that forms a community. Connecting
-              people around the idea of giving and receiving by using boxes on
-              the streets. It helps people to promote their boxes and to find
-              more and better boxes
-            </p>
-          </div>
-          <div class="portfolio__column-right__medium-btn grow">
-            <a
-              class="portfolio__column-right__medium-btn__link"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://medium.com/@negrila.andreea/spotbox-aa6def516bb2?sk=dad47fa0ceebe697321aa24f33d3842d"
-            >
-              <img
-                class="portfolio__column-right__medium-btn__logo"
-                src="./images used/icon Medium.png "
-              />
-              <p class="portfolio__column-right__medium-btn__text">
-                Check my Medium post
-              </p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--about me-->
-    <section class="About-me" id="about">
-      <h2 class="section__title--about">About me</h2>
-      <div class="about">
-        <div class="about-me">
-          <h3>Who am I?</h3>
-          <p>
-            A visual learner. Open. Positive. High-energy. Always looking to
-            challenge my creative curiosity.
-            <br />
-            I like to connect the dots and have a tendency to question
-            everything.
-            <br />
-            I‘m a problem solver, I strive to find the solution in any
-            situation, always putting people and their needs at the center of my
-            work.
-          </p>
-        </div>
-        <div class="about-me">
-          <h3>My Background</h3>
-          <p>
-            I studied architecture and did a master's in Set and Costume Design.
-            With over 10+ years of experience and 30+ successful projects, I
-            refined my ability to devise creative solutions.
-            <br />
-            I’m motivated and persuasive in managing, delegating and
-            implementing tasks, aiming to inspire people in the project to trust
-            and follow my vision.
-          </p>
-        </div>
-        <div class="about-me">
-          <h3>My motivations</h3>
-          <p>
-            I work in a solution-oriented way to create a positive impact.
-            <br />
-            My interest in the human condition is the driving force of my work.
-            I do not hesitate to reposition myself in response to an
-            ever-changing world. My aim is to get closer to the best version of
-            myself, a position from where I can meaningfully give back.
-          </p>
-        </div>
-      </div>
-      <div class="btn-container">
-        <a
-          href="https://drive.google.com/file/d/1Iyt1E1pPlqdnZ82yguFWGgIx7yERwyXO/view?usp=sharing"
-          class="btn grow"
-          >Download my CV</a
-        >
-      </div>
-    </section>
-
-    <!--contact-->
-    <section class="contact-me" id="contact">
-      <h2 class="section__title--contact">
-        Let's get in touch!
-      </h2>
-      <a href="#home" class="contact-me__img grow">
-        <img src="./images used/my photo.png" />
-      </a>
-
-      <div class="contact-me__body">
-        <ul class="social-list">
-          <li class="social-list__item">
-            <a
-              class="social-list__"
-              href="https://www.instagram.com/ano._.miss/"
-            >
-              <img
-                class="contact-me__icon grow"
-                src="./images used/instagramicon.png"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="https://www.linkedin.com/in/andreea-simona-negrila-83406660/"
-            >
-              <img
-                class="contact-me__icon grow"
-                src="./images used/linkedinicon.png"
-              />
-            </a>
-          </li>
+      <!-- Menu -->
+      <nav id="menu">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#main">My Work</a></li>
+          <li><a href="generic.html">About Me</a></li>
+          <!-- <li><a href="elements.html">Elements</a></li> -->
         </ul>
-        <div class="coloana">
-          <ul class="contact-list">
-            <li class="contact-list__item">
-              <!-- <img
-        								class="contact-me__icon1"
-        								src="./images used/mailicon.png"
-        							/> -->
-              <p class="contact-list__item__text">
-                negrila.andreea@gmail.com
-              </p>
+        <!--  <ul class="actions stacked">
+          <li><a href="#" class="button primary fit">Get Started</a></li>
+          <li><a href="#" class="button fit">Log In</a></li>
+        </ul> -->
+      </nav>
+
+      <!-- Banner -->
+      <section id="banner" class="major">
+        <div class="inner">
+          <header class="major"></header>
+          <div class="content landing-page">
+            <!--  <p>
+              A responsive site template designed by HTML5 UP<br />
+              and released under the Creative Commons.
+            </p> -->
+            <!--     <ul class="actions">
+              <li>
+                <a href="#one" class="button next scrolly">See my work</a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one" class="tiles">
+          <article>
+            <span class="image">
+              <img src="images/pic01.jpg" alt="" />
+            </span>
+            <header class="major">
+              <h3>
+                <a href="landing.html" class="link">UX/UI Design</a>
+              </h3>
+              <p>Selection of my work</p>
+            </header>
+          </article>
+          <article>
+            <span class="image">
+              <img src="images/pic02.jpg" alt="" />
+            </span>
+            <header class="major">
+              <h3>
+                <a href="landing 1.html" class="link">Set and Costume Design</a>
+              </h3>
+              <p>Selection of my work</p>
+            </header>
+          </article>
+          <article>
+            <span class="image">
+              <img src="images/pic03.jpg" alt="" />
+            </span>
+            <header class="major">
+              <h3><a href="landing 2.html" class="link">Spatial Design</a></h3>
+              <p>Selection of my work</p>
+            </header>
+          </article>
+          <article>
+            <span class="image">
+              <img src="images/pic04.jpg" alt="" />
+            </span>
+            <header class="major">
+              <h3><a href="landing 3.html" class="link">Design Thinking</a></h3>
+              <p>Book your Custum Workshop</p>
+            </header>
+          </article>
+          <!--  <article>
+            <span class="image">
+              <img src="images/pic05.jpg" alt="" />
+            </span>
+            <header class="major">
+              <h3><a href="landing.html" class="link">Consequat</a></h3>
+              <p>Ipsum dolor sit amet</p>
+            </header>
+          </article> -->
+          <!--    <article>
+            <span class="image">
+              <img src="images/pic06.jpg" alt="" />
+            </span>
+            <header class="major">
+              <h3><a href="landing.html" class="link">Etiam</a></h3>
+              <p>Feugiat amet tempus</p>
+            </header>
+          </article> -->
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+          <div class="inner">
+            <header class="major">
+              <h2>Want to work with me?</h2>
+            </header>
+            <p></p>
+            <ul class="actions">
+              <li>
+                <a href="generic.html#contact" class="button next"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Contact -->
+      <!--  <section id="contact">
+        <div class="inner">
+          <section>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="6"></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Clear" /></li>
+              </ul>
+            </form>
+          </section>
+          <section class="split">
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-envelope"></span>
+                <h3>Email</h3>
+                <a href="#">information@untitled.tld</a>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-phone"></span>
+                <h3>Phone</h3>
+                <span>(000) 000-0000 x12387</span>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-home"></span>
+                <h3>Address</h3>
+                <span
+                  >1234 Somewhere Road #5432<br />
+                  Nashville, TN 00000<br />
+                  United States of America</span
+                >
+              </div>
+            </section>
+          </section>
+        </div>
+      </section> -->
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <ul class="icons">
+            <!--       <li>
+              <a href="#" class="icon brands alt fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
             </li>
-            <li class="contact-list__item">
-              <!-- <img
-        								class="contact-me__icon1"
-        								src="./images used/phoneicon.png"
-        							/> -->
-              <p class="contact-list__item__text">
-                +49 (0)162 9530922
-              </p>
+            <li>
+              <a href="#" class="icon brands alt fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li> -->
+            <li>
+              <a
+                href="https://www.instagram.com/ano._.miss/"
+                class="icon brands alt fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
             </li>
-            <li class="contact-list__item">
-              <!-- <img
-        								class="contact-me__icon1"
-        								src="./images used/locationicon.png"
-        							/> -->
-              <p class="contact-list__item__text">
-                Berlin 12045
-              </p>
+            <li>
+              <a
+                href="https://medium.com/@negrila.andreea/"
+                class="icon brands alt fa-medium"
+                ><span class="label">Medium</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/andreea-simona-negrila/"
+                class="icon brands alt fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
             </li>
           </ul>
+          <ul class="copyright">
+            <li>&copy; Andreea Simona Negrila 2020</li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <!-- <div class="Contact me__body">
-        <a href="https://www.linkedin.com/in/andreea-simona-negrila-83406660/"
-        ><img src="linkedin.png" alt="" id="linkedin"
-      /></a>
-      <a href="https://www.instagram.com/a.simone.n/?hl=ro"
-        ><img src="intagram.png" alt="" id="instagram"
-      /></a>
-      <a href="https://medium.com/@negrila.andreea"
-        ><img src="i#" alt="" id="medium"
-      /></a>
-      </div> -->
-
-    <!--Footer-->
-    <div class="footer">
-      <footer>© Andreea Negrila 2020</footer>
+      </footer>
     </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
